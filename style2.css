@@ -1,0 +1,16 @@
+body {
+    background-color: chartreuse;
+    color: rgb(255, 38, 0);
+}
+ul li:hover{
+color: blue;}
+ul li::before{
+content: "⭐";
+}
+p::first-letter{
+    font-size: 200%;
+    color: black;
+}
+ul > li{
+    font-weight: bold;
+}
